@@ -1,10 +1,10 @@
-package com.example.param;
+package com.example.td3;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class ApplicationTests {
+class Td3ApplicationTests {
 
 	@Test
 	void contextLoads() {
