@@ -24,7 +24,7 @@ public class StudentController {
         try {
             List<Student> students = studentStockage.addStudent(newStudents);
             return ResponseEntity
-                    .status(HttpStatus.OK)
+                    .status(HttpStatus.CREATED)
                     .header("Content-Type", "application/json")
                     .body(students);
         }catch (BadRequestException e){
